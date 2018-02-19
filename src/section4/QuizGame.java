@@ -10,6 +10,7 @@ public class QuizGame {
 		int score = 0;
 		
 		// 2.  Ask the user a question 
+		JOptionPane.showMessageDialog(null, "Ready to take the math quiz?");
 		String Q1 = JOptionPane.showInputDialog(null, "2+2");
 		if (Q1.equals("4")) {
 			score++;
@@ -26,7 +27,7 @@ public class QuizGame {
 				if (Q4.equals("50405053858803050083843757577947959737957939757979593577359397579757997375757957375737993895884573595790000")) {
 					score++;}
 				
-					JOptionPane.showMessageDialog(null, "You are done! YOUR SCORE IS " + score + "!");
+					JOptionPane.showMessageDialog(null, "You are done! YOUR SCORE IS " + score + "/4!");
 		
 	}
 }
