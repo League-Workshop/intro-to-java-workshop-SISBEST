@@ -4,11 +4,12 @@ import javax.swing.JOptionPane;
 import com.sun.speech.freetts.Voice;
 import com.sun.speech.freetts.VoiceManager;
 
-public class StephenHawking {
+public class TTS {
 	
 	// 1. make a main method and put steps 2, 3 & 4 inside it
 	public static void main(String[] args) {
-		speak("That's all, folks! Powered by Samuel's coding.");
+		String sentence = JOptionPane.showInputDialog(null, "What sentence do you want me to read aloud?");
+		speak(sentence);
 	}
 	
 	
